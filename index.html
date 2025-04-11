@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening Portfoliom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#about">Men haqimda</a></li>
+                <li><a href="#skills">Ko'nikmalar</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Salom, mening ismim <span class="highlight">Shoxruzbek</span></h1>
+            <p>Video montaj va dizayn mutaxassisi va Frontend dastuchiman </p>
+            <a href="#portfolio" class="btn">Ishlarimni ko'ring</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://i.pinimg.com/564x/c7/6c/10/c76c1058417bd9c6099f7168e36947e7.jpg" alt="Profil rasmi">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Men haqimda</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Men video montaj, grafik dizayn va veb-dizayn sohasida ishlayman. Quyidagi dasturlarda ishlashni bilaman:</p>
+                <ul>
+                    <li>Adobe Premiere Pro (video montaj)</li>
+                    <li>Adobe After Effects (motion grafik)</li>
+                    <li>Figma (interfeys dizayn)</li>
+                    <li>Canva (grafik dizayn)</li>
+                    <li>Final Cut Pro (video montaj)</li>
+                </ul>
+                <p>Yaratish va yangi g'oyalarni amalga oshirish - mening asosiy qiziqishim.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://camo.githubusercontent.com/2366b34bb903c09617990fb5fff4622f3e941349e846ddb7e73df872a9d21233/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966" alt="Ish jarayoni">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Mening ko'nikmalarim</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fas fa-film"></i>
+                <h3>Video Montaj</h3>
+                <p>Professional video montaj, rang tuzatish, effektlar</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-magic"></i>
+                <h3>Motion Graphics</h3>
+                <p>Animatsiyalar, titrlar, vizual effektlar</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Grafik Dizayn</h3>
+                <p>Posterlar, bannerlar, logotiplar</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Veb Dizayn</h3>
+                <p>Figma va Canva yordamida interfeys dizayn</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Dasturlash</h3>
+                <p>HTML5 CSS3 JS</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-bootstrap"></i>
+                <h3>Kutubxonalar va Iconlar</h3>
+                <p>bepul code navbar card </p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-github"></i>
+                <h3>GitHub </h3>
+                <p>GitHub — bu kodlarni saqlash, boshqarish va boshqa dasturchilar bilan birga ishlash</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-telegram"></i>
+                <h3>Telegram</h3>
+                <p>Telegram — bu bepul va tezkor messenjer</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Mening ishlarim</h2>
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">Hammasi</button>
+            <button class="filter-btn" data-filter="video">Video</button>
+            <button class="filter-btn" data-filter="motion">Motion</button>
+            <button class="filter-btn" data-filter="design">Dizayn</button>
+        </div>
+        <div class="portfolio-grid">
+            <!-- Bu yerga ishlaringizni qo'shasiz -->
+            <div class="portfolio-item" data-category="video">
+                <img src="img/Screenshot_2.png" alt="Ish 1">
+                <div class="overlay">
+                    <h3>Video loyiha</h3>
+                    <a href="https://shoxruzsayfiddinovwebdeveloppermypotf.netlify.app/" class="view-btn">Ko'rish</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="video">
+                <img src="img/Screenshot_1.png" alt="Ish 1">
+                <div class="overlay">
+                    <h3>Video loyiha</h3>
+                    <a href="https://bizl-front.netlify.app/" class="view-btn">Ko'rish</a>
+                </div>
+            </div>
+
+            
+            <div class="portfolio-item" data-category="video">
+                <img src="img/Screenshot_3.png" alt="Ish 1">
+                <div class="overlay">
+                    <h3>Video loyiha</h3>
+                    <a href="https://seo-studio.netlify.app/" class="view-btn">Ko'rish</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="video">
+                <img src="img/Screenshot_4.png" alt="Ish 1">
+                <div class="overlay">
+                    <h3>Video loyiha</h3>
+                    <a href="https://seo-studio.netlify.app/" class="view-btn">Ko'rish</a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-item" data-category="video">
+                <img src="img/Screenshot_5.png" alt="Ish 1">
+                <div class="overlay">
+                    <h3>Video loyiha</h3>
+                    <a href="https://site-proxy.netlify.app/" class="view-btn">Ko'rish</a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-item" data-category="video">
+                <img src="img/Screenshot_6.png" alt="Ish 1">
+                <div class="overlay">
+                    <h3>Video loyiha</h3>
+                    <a href="https://webforte-water-extraction.netlify.app/" class="view-btn">Ko'rish</a>
+                </div>
+            </div>
+
+
+            <!-- Boshqa ishlar -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Aloqa</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Bog'lanish uchun</h3>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5118.445400436901!2d66.92601011274947!3d37.45685254301198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f356995c0df6859%3A0x3b7b3b0f2c8e41a7!2sMuzrabot%20IT%20CENTER!5e1!3m2!1sen!2s!4v1744305124938!5m2!1sen!2s" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <p><i class="fas fa-envelope"></i> email@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +998 90 123 45 67</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Telegramga yuborish</h3>
+                <form id="messageForm">
+                    <div class="flex justify-center items-center">
+                        <img src="img/Screenshot_8.png" alt="QR kod" class="w-40 h-40">
+                     </div>
+                     
+                    <!-- <button type="submit" class="btn">Yuborish</button> -->
+                     <h3 class="qr">QR codeni skanerlang</h3>
+                </form>
+            </div>
+            <div class="live-chat">
+                <h3>Online chat</h3>
+            
+                <!-- Username kiritish -->
+             
+                <div id="chatBox" class="chat-box">
+                    <!-- Chat xabarlari shu yerga keladi -->
+                </div>
+                
+                <div class="username-input">
+                   
+                </div>
+                
+                <div class="chat-input">
+
+                    <input type="number" id="usernameInput" placeholder="+998() _  _  _" />
+                    <input type="text" id="chatMessage" placeholder="Xabaringizni yozing...">
+                    <button id="sendChat" class="btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+                
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 [Shoxruzbek]. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+<!-- const botToken = '7674599207:AAGHwaxFI2FXXfD0gRqS-SY0JdqdrbsCiCM'; // <-- o'zgartir
+const chatId = '6972880244';     // <-- o'zgartir -->
